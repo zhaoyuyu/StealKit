@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1EDC8561D70275B0040D689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8551D70275B0040D689 /* main.m */; };
+		F1EDC8591D70275B0040D689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8581D70275B0040D689 /* AppDelegate.m */; };
+		F1EDC85C1D70275B0040D689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC85B1D70275B0040D689 /* ViewController.m */; };
+		F1EDC85F1D70275B0040D689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EDC85D1D70275B0040D689 /* Main.storyboard */; };
+		F1EDC8611D70275B0040D689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EDC8601D70275B0040D689 /* Assets.xcassets */; };
+		F1EDC8641D70275B0040D689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EDC8621D70275B0040D689 /* LaunchScreen.storyboard */; };
+		F1EDC8851D7027B90040D689 /* NSArray+SKProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC86D1D7027B90040D689 /* NSArray+SKProtection.m */; };
+		F1EDC8861D7027B90040D689 /* NSDictionary+SKProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC86F1D7027B90040D689 /* NSDictionary+SKProtection.m */; };
+		F1EDC8871D7027B90040D689 /* NSMutableArray+SKProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8711D7027B90040D689 /* NSMutableArray+SKProtection.m */; };
+		F1EDC8881D7027B90040D689 /* NSMutableDictionary+SKProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8731D7027B90040D689 /* NSMutableDictionary+SKProtection.m */; };
+		F1EDC8891D7027B90040D689 /* NSNull+SKProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8751D7027B90040D689 /* NSNull+SKProtection.m */; };
+		F1EDC88A1D7027B90040D689 /* NSString+SKEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8771D7027B90040D689 /* NSString+SKEncryption.m */; };
+		F1EDC88B1D7027B90040D689 /* NSString+SKTransformatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8791D7027B90040D689 /* NSString+SKTransformatter.m */; };
+		F1EDC88C1D7027B90040D689 /* NSString+SKURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC87B1D7027B90040D689 /* NSString+SKURLEncode.m */; };
+		F1EDC88D1D7027B90040D689 /* SKJSONTransformatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC87D1D7027B90040D689 /* SKJSONTransformatter.m */; };
+		F1EDC88E1D7027B90040D689 /* UIView+SKGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8821D7027B90040D689 /* UIView+SKGeometry.m */; };
+		F1EDC88F1D7027B90040D689 /* UIView+SKStoryBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8841D7027B90040D689 /* UIView+SKStoryBoard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1EDC8511D70275B0040D689 /* StealKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StealKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EDC8551D70275B0040D689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1EDC8571D70275B0040D689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1EDC8581D70275B0040D689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1EDC85A1D70275B0040D689 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1EDC85B1D70275B0040D689 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1EDC85E1D70275B0040D689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1EDC8601D70275B0040D689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1EDC8631D70275B0040D689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1EDC8651D70275B0040D689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EDC86C1D7027B90040D689 /* NSArray+SKProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SKProtection.h"; sourceTree = "<group>"; };
+		F1EDC86D1D7027B90040D689 /* NSArray+SKProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SKProtection.m"; sourceTree = "<group>"; };
+		F1EDC86E1D7027B90040D689 /* NSDictionary+SKProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SKProtection.h"; sourceTree = "<group>"; };
+		F1EDC86F1D7027B90040D689 /* NSDictionary+SKProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SKProtection.m"; sourceTree = "<group>"; };
+		F1EDC8701D7027B90040D689 /* NSMutableArray+SKProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SKProtection.h"; sourceTree = "<group>"; };
+		F1EDC8711D7027B90040D689 /* NSMutableArray+SKProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SKProtection.m"; sourceTree = "<group>"; };
+		F1EDC8721D7027B90040D689 /* NSMutableDictionary+SKProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SKProtection.h"; sourceTree = "<group>"; };
+		F1EDC8731D7027B90040D689 /* NSMutableDictionary+SKProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SKProtection.m"; sourceTree = "<group>"; };
+		F1EDC8741D7027B90040D689 /* NSNull+SKProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+SKProtection.h"; sourceTree = "<group>"; };
+		F1EDC8751D7027B90040D689 /* NSNull+SKProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+SKProtection.m"; sourceTree = "<group>"; };
+		F1EDC8761D7027B90040D689 /* NSString+SKEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKEncryption.h"; sourceTree = "<group>"; };
+		F1EDC8771D7027B90040D689 /* NSString+SKEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKEncryption.m"; sourceTree = "<group>"; };
+		F1EDC8781D7027B90040D689 /* NSString+SKTransformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKTransformatter.h"; sourceTree = "<group>"; };
+		F1EDC8791D7027B90040D689 /* NSString+SKTransformatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKTransformatter.m"; sourceTree = "<group>"; };
+		F1EDC87A1D7027B90040D689 /* NSString+SKURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKURLEncode.h"; sourceTree = "<group>"; };
+		F1EDC87B1D7027B90040D689 /* NSString+SKURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKURLEncode.m"; sourceTree = "<group>"; };
+		F1EDC87C1D7027B90040D689 /* SKJSONTransformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKJSONTransformatter.h; sourceTree = "<group>"; };
+		F1EDC87D1D7027B90040D689 /* SKJSONTransformatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKJSONTransformatter.m; sourceTree = "<group>"; };
+		F1EDC87E1D7027B90040D689 /* SKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMacros.h; sourceTree = "<group>"; };
+		F1EDC87F1D7027B90040D689 /* SKSingletonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSingletonMacro.h; sourceTree = "<group>"; };
+		F1EDC8801D7027B90040D689 /* StealKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StealKit.h; sourceTree = "<group>"; };
+		F1EDC8811D7027B90040D689 /* UIView+SKGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKGeometry.h"; sourceTree = "<group>"; };
+		F1EDC8821D7027B90040D689 /* UIView+SKGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKGeometry.m"; sourceTree = "<group>"; };
+		F1EDC8831D7027B90040D689 /* UIView+SKStoryBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKStoryBoard.h"; sourceTree = "<group>"; };
+		F1EDC8841D7027B90040D689 /* UIView+SKStoryBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKStoryBoard.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1EDC84E1D70275B0040D689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1EDC8481D70275B0040D689 = {
+			isa = PBXGroup;
+			children = (
+				F1EDC86B1D7027B90040D689 /* StealKit */,
+				F1EDC8531D70275B0040D689 /* StealKitDemo */,
+				F1EDC8521D70275B0040D689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1EDC8521D70275B0040D689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1EDC8511D70275B0040D689 /* StealKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1EDC8531D70275B0040D689 /* StealKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1EDC8571D70275B0040D689 /* AppDelegate.h */,
+				F1EDC8581D70275B0040D689 /* AppDelegate.m */,
+				F1EDC85A1D70275B0040D689 /* ViewController.h */,
+				F1EDC85B1D70275B0040D689 /* ViewController.m */,
+				F1EDC85D1D70275B0040D689 /* Main.storyboard */,
+				F1EDC8601D70275B0040D689 /* Assets.xcassets */,
+				F1EDC8621D70275B0040D689 /* LaunchScreen.storyboard */,
+				F1EDC8651D70275B0040D689 /* Info.plist */,
+				F1EDC8541D70275B0040D689 /* Supporting Files */,
+			);
+			path = StealKitDemo;
+			sourceTree = "<group>";
+		};
+		F1EDC8541D70275B0040D689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1EDC8551D70275B0040D689 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1EDC86B1D7027B90040D689 /* StealKit */ = {
+			isa = PBXGroup;
+			children = (
+				F1EDC86C1D7027B90040D689 /* NSArray+SKProtection.h */,
+				F1EDC86D1D7027B90040D689 /* NSArray+SKProtection.m */,
+				F1EDC86E1D7027B90040D689 /* NSDictionary+SKProtection.h */,
+				F1EDC86F1D7027B90040D689 /* NSDictionary+SKProtection.m */,
+				F1EDC8701D7027B90040D689 /* NSMutableArray+SKProtection.h */,
+				F1EDC8711D7027B90040D689 /* NSMutableArray+SKProtection.m */,
+				F1EDC8721D7027B90040D689 /* NSMutableDictionary+SKProtection.h */,
+				F1EDC8731D7027B90040D689 /* NSMutableDictionary+SKProtection.m */,
+				F1EDC8741D7027B90040D689 /* NSNull+SKProtection.h */,
+				F1EDC8751D7027B90040D689 /* NSNull+SKProtection.m */,
+				F1EDC8761D7027B90040D689 /* NSString+SKEncryption.h */,
+				F1EDC8771D7027B90040D689 /* NSString+SKEncryption.m */,
+				F1EDC8781D7027B90040D689 /* NSString+SKTransformatter.h */,
+				F1EDC8791D7027B90040D689 /* NSString+SKTransformatter.m */,
+				F1EDC87A1D7027B90040D689 /* NSString+SKURLEncode.h */,
+				F1EDC87B1D7027B90040D689 /* NSString+SKURLEncode.m */,
+				F1EDC87C1D7027B90040D689 /* SKJSONTransformatter.h */,
+				F1EDC87D1D7027B90040D689 /* SKJSONTransformatter.m */,
+				F1EDC87E1D7027B90040D689 /* SKMacros.h */,
+				F1EDC87F1D7027B90040D689 /* SKSingletonMacro.h */,
+				F1EDC8801D7027B90040D689 /* StealKit.h */,
+				F1EDC8811D7027B90040D689 /* UIView+SKGeometry.h */,
+				F1EDC8821D7027B90040D689 /* UIView+SKGeometry.m */,
+				F1EDC8831D7027B90040D689 /* UIView+SKStoryBoard.h */,
+				F1EDC8841D7027B90040D689 /* UIView+SKStoryBoard.m */,
+			);
+			path = StealKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1EDC8501D70275B0040D689 /* StealKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1EDC8681D70275B0040D689 /* Build configuration list for PBXNativeTarget "StealKitDemo" */;
+			buildPhases = (
+				F1EDC84D1D70275B0040D689 /* Sources */,
+				F1EDC84E1D70275B0040D689 /* Frameworks */,
+				F1EDC84F1D70275B0040D689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StealKitDemo;
+			productName = StealKitDemo;
+			productReference = F1EDC8511D70275B0040D689 /* StealKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1EDC8491D70275B0040D689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = StealKit;
+				TargetAttributes = {
+					F1EDC8501D70275B0040D689 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F1EDC84C1D70275B0040D689 /* Build configuration list for PBXProject "StealKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1EDC8481D70275B0040D689;
+			productRefGroup = F1EDC8521D70275B0040D689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1EDC8501D70275B0040D689 /* StealKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1EDC84F1D70275B0040D689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EDC8641D70275B0040D689 /* LaunchScreen.storyboard in Resources */,
+				F1EDC8611D70275B0040D689 /* Assets.xcassets in Resources */,
+				F1EDC85F1D70275B0040D689 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1EDC84D1D70275B0040D689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EDC8861D7027B90040D689 /* NSDictionary+SKProtection.m in Sources */,
+				F1EDC88F1D7027B90040D689 /* UIView+SKStoryBoard.m in Sources */,
+				F1EDC85C1D70275B0040D689 /* ViewController.m in Sources */,
+				F1EDC88C1D7027B90040D689 /* NSString+SKURLEncode.m in Sources */,
+				F1EDC8871D7027B90040D689 /* NSMutableArray+SKProtection.m in Sources */,
+				F1EDC88B1D7027B90040D689 /* NSString+SKTransformatter.m in Sources */,
+				F1EDC88A1D7027B90040D689 /* NSString+SKEncryption.m in Sources */,
+				F1EDC8881D7027B90040D689 /* NSMutableDictionary+SKProtection.m in Sources */,
+				F1EDC88E1D7027B90040D689 /* UIView+SKGeometry.m in Sources */,
+				F1EDC8891D7027B90040D689 /* NSNull+SKProtection.m in Sources */,
+				F1EDC8851D7027B90040D689 /* NSArray+SKProtection.m in Sources */,
+				F1EDC88D1D7027B90040D689 /* SKJSONTransformatter.m in Sources */,
+				F1EDC8591D70275B0040D689 /* AppDelegate.m in Sources */,
+				F1EDC8561D70275B0040D689 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1EDC85D1D70275B0040D689 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1EDC85E1D70275B0040D689 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1EDC8621D70275B0040D689 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1EDC8631D70275B0040D689 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1EDC8661D70275B0040D689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1EDC8671D70275B0040D689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1EDC8691D70275B0040D689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StealKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.StealKit.StealKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1EDC86A1D70275B0040D689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StealKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.StealKit.StealKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1EDC84C1D70275B0040D689 /* Build configuration list for PBXProject "StealKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EDC8661D70275B0040D689 /* Debug */,
+				F1EDC8671D70275B0040D689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EDC8681D70275B0040D689 /* Build configuration list for PBXNativeTarget "StealKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EDC8691D70275B0040D689 /* Debug */,
+				F1EDC86A1D70275B0040D689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1EDC8491D70275B0040D689 /* Project object */;
+}
