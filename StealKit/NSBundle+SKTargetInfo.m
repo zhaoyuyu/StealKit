@@ -6,7 +6,7 @@
 //  Copyright © 2016年 StealKit. All rights reserved.
 //
 
-#import "NSBundle+SKInfo.h"
+#import "NSBundle+SKTargetInfo.h"
 
 @implementation NSBundle (SKTargetInfo)
 
