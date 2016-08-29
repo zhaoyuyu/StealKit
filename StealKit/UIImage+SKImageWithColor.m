@@ -23,7 +23,7 @@
     return image;
 }
 
-- (UIImage *)imageByResize:(CGSize)anotherSize
+- (UIImage *)sk_imageByResize:(CGSize)anotherSize
 {
     UIGraphicsBeginImageContext(anotherSize);
     [self drawInRect:CGRectMake(0, 0, anotherSize.width, anotherSize.height)];

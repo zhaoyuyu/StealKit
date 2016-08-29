@@ -28,6 +28,7 @@
 		F1EDC8951D7414D80040D689 /* UIButton+SKColorForState.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8941D7414D80040D689 /* UIButton+SKColorForState.m */; };
 		F1EDC8981D741DC90040D689 /* NSBundle+SKTargetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8971D741DC90040D689 /* NSBundle+SKTargetInfo.m */; };
 		F1EDC89B1D74238B0040D689 /* NSString+SKURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC89A1D74238B0040D689 /* NSString+SKURL.m */; };
+		F1EDC89E1D74298C0040D689 /* UIApplication+SKDirectories.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC89D1D74298C0040D689 /* UIApplication+SKDirectories.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,8 @@
 		F1EDC8971D741DC90040D689 /* NSBundle+SKTargetInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SKTargetInfo.m"; sourceTree = "<group>"; };
 		F1EDC8991D74238B0040D689 /* NSString+SKURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKURL.h"; sourceTree = "<group>"; };
 		F1EDC89A1D74238B0040D689 /* NSString+SKURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKURL.m"; sourceTree = "<group>"; };
+		F1EDC89C1D74298C0040D689 /* UIApplication+SKDirectories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SKDirectories.h"; sourceTree = "<group>"; };
+		F1EDC89D1D74298C0040D689 /* UIApplication+SKDirectories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SKDirectories.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,10 @@
 				F1EDC87B1D7027B90040D689 /* NSString+SKURLEncode.m */,
 				F1EDC87C1D7027B90040D689 /* SKJSONTransformatter.h */,
 				F1EDC87D1D7027B90040D689 /* SKJSONTransformatter.m */,
+				F1EDC8961D741DC90040D689 /* NSBundle+SKTargetInfo.h */,
+				F1EDC8971D741DC90040D689 /* NSBundle+SKTargetInfo.m */,
+				F1EDC8991D74238B0040D689 /* NSString+SKURL.h */,
+				F1EDC89A1D74238B0040D689 /* NSString+SKURL.m */,
 				F1EDC8811D7027B90040D689 /* UIView+SKGeometry.h */,
 				F1EDC8821D7027B90040D689 /* UIView+SKGeometry.m */,
 				F1EDC8831D7027B90040D689 /* UIView+SKStoryBoard.h */,
@@ -158,10 +165,8 @@
 				F1EDC8911D7412B80040D689 /* UIImage+SKImageWithColor.m */,
 				F1EDC8931D7414D80040D689 /* UIButton+SKColorForState.h */,
 				F1EDC8941D7414D80040D689 /* UIButton+SKColorForState.m */,
-				F1EDC8961D741DC90040D689 /* NSBundle+SKTargetInfo.h */,
-				F1EDC8971D741DC90040D689 /* NSBundle+SKTargetInfo.m */,
-				F1EDC8991D74238B0040D689 /* NSString+SKURL.h */,
-				F1EDC89A1D74238B0040D689 /* NSString+SKURL.m */,
+				F1EDC89C1D74298C0040D689 /* UIApplication+SKDirectories.h */,
+				F1EDC89D1D74298C0040D689 /* UIApplication+SKDirectories.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 				F1EDC8881D7027B90040D689 /* NSMutableDictionary+SKProtection.m in Sources */,
 				F1EDC88E1D7027B90040D689 /* UIView+SKGeometry.m in Sources */,
 				F1EDC8891D7027B90040D689 /* NSNull+SKProtection.m in Sources */,
+				F1EDC89E1D74298C0040D689 /* UIApplication+SKDirectories.m in Sources */,
 				F1EDC8851D7027B90040D689 /* NSArray+SKProtection.m in Sources */,
 				F1EDC88D1D7027B90040D689 /* SKJSONTransformatter.m in Sources */,
 				F1EDC8591D70275B0040D689 /* AppDelegate.m in Sources */,

@@ -12,6 +12,6 @@
 
 + (instancetype)sk_imageWithColor:(UIColor *)color;
 
-- (UIImage *)imageByResize:(CGSize)anotherSize;
+- (UIImage *)sk_imageByResize:(CGSize)anotherSize;
 
 @end
