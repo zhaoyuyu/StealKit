@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSBundle (SKInfo)
+@interface NSBundle (SKTargetInfo)
 
 + (NSString *)sk_appName;
+
 + (NSString *)sk_appVersion;
+
 + (NSString *)sk_appBundleIdentifier;
 
 @end

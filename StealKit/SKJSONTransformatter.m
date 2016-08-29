@@ -16,9 +16,12 @@
     NSError *processError;
     id jsonObj =[NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingAllowFragments error:&processError];
     if (processError) {
+#if DEBUG
         NSLog(@"%@",[processError description]);
+#endif
         return nil;
     }
+    
     return jsonObj;
 }
 
@@ -33,11 +36,14 @@
         NSError *processError;
         NSData *jsonData = [NSJSONSerialization dataWithJSONObject:self options:NSJSONWritingPrettyPrinted error:&processError];
         if (processError) {
+#if DEBUG
             NSLog(@"%@",[processError description]);
+#endif
             return nil;
         }
         jsonString =[[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
     }
+    
     return jsonString;
 }
 

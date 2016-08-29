@@ -8,7 +8,7 @@
 
 #import "NSBundle+SKInfo.h"
 
-@implementation NSBundle (SKInfo)
+@implementation NSBundle (SKTargetInfo)
 
 + (NSString *)sk_appName
 {

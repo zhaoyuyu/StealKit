@@ -19,6 +19,7 @@
     CGContextFillRect(context, rect);
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
+    
     return image;
 }
 
@@ -28,6 +29,7 @@
     [self drawInRect:CGRectMake(0, 0, anotherSize.width, anotherSize.height)];
     UIImage* targetImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
+    
     return targetImage;
 }
 
