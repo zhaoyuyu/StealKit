@@ -10,14 +10,16 @@
 
 @implementation NSMutableArray (SKProtection)
 
-- (void)sk_addObject:(id)anObject {
+- (void)sk_addObject:(id)anObject
+{
     if (!anObject) {
         return;
     }
     [self addObject:anObject];
 }
 
-- (void)sk_insertObject:(id)anObject atIndex:(NSUInteger)index {
+- (void)sk_insertObject:(id)anObject atIndex:(NSUInteger)index
+{
     if (index > [self count]) {
         return;
     }
@@ -27,7 +29,8 @@
     [self insertObject:anObject atIndex:index];
 }
 
-- (void)sk_removeObjectAtIndex:(NSUInteger)index {
+- (void)sk_removeObjectAtIndex:(NSUInteger)index
+{
     if (index >= [self count]) {
         return;
     }
@@ -35,7 +38,8 @@
     return [self removeObjectAtIndex:index];
 }
 
-- (void)sk_replaceObjectAtIndex:(NSUInteger)index withObject:(id)anObject {
+- (void)sk_replaceObjectAtIndex:(NSUInteger)index withObject:(id)anObject
+{
     if (index >= [self count]) {
         return;
     }

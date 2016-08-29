@@ -13,7 +13,7 @@
 
 @implementation NSString (SKEncryption)
 
-- (NSString *)sk_md5Encypt
+- (NSString *)sk_MD5Encypt
 {
     NSData *data =  [self dataUsingEncoding:NSUTF8StringEncoding];
     unsigned char result[CC_MD5_DIGEST_LENGTH];
@@ -24,12 +24,12 @@
             ];
 }
 
-- (NSString *)sk_Base64Encode
+- (NSString *)sk_BASE64Encode
 {
     return [self.sk_data base64EncodedStringWithOptions:0];
 }
 
-- (NSString *)sk_Base64Decode
+- (NSString *)sk_BASE64Decode
 {
     return [[NSData alloc] initWithBase64EncodedString:self options:NSDataBase64DecodingIgnoreUnknownCharacters].sk_string;
 }

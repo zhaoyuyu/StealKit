@@ -10,14 +10,16 @@
 
 @implementation NSMutableDictionary (SKProtection)
 
-- (void)sk_removeObjectForKey:(id)aKey {
+- (void)sk_removeObjectForKey:(id)aKey
+{
     if (!aKey) {
         return;
     }
     [self removeObjectForKey:aKey];
 }
 
-- (void)sk_setObject:(id)anObject forKey:(id <NSCopying>)aKey {
+- (void)sk_setObject:(id)anObject forKey:(id <NSCopying>)aKey
+{
     if (!anObject) {
         return;
     }

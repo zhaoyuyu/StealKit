@@ -10,10 +10,10 @@
 
 @interface NSString (SKEncryption)
 
-- (NSString *)sk_md5Encypt;
+- (NSString *)sk_MD5Encypt;
 
-- (NSString *)sk_Base64Encode;
+- (NSString *)sk_BASE64Encode;
 
-- (NSString *)sk_Base64Decode;
+- (NSString *)sk_BASE64Decode;
 
 @end

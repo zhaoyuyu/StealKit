@@ -19,7 +19,8 @@
     }
 }
 
-- (NSArray *)sk_arrayByAddingObject:(id)anObject {
+- (NSArray *)sk_arrayByAddingObject:(id)anObject
+{
     if (!anObject) {
         return self;
     }

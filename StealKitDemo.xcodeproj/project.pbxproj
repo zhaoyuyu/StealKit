@@ -24,6 +24,8 @@
 		F1EDC88D1D7027B90040D689 /* SKJSONTransformatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC87D1D7027B90040D689 /* SKJSONTransformatter.m */; };
 		F1EDC88E1D7027B90040D689 /* UIView+SKGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8821D7027B90040D689 /* UIView+SKGeometry.m */; };
 		F1EDC88F1D7027B90040D689 /* UIView+SKStoryBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8841D7027B90040D689 /* UIView+SKStoryBoard.m */; };
+		F1EDC8921D7412B80040D689 /* UIImage+SKImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8911D7412B80040D689 /* UIImage+SKImageWithColor.m */; };
+		F1EDC8951D7414D80040D689 /* UIButton+SKColorForState.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8941D7414D80040D689 /* UIButton+SKColorForState.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,12 +58,15 @@
 		F1EDC87C1D7027B90040D689 /* SKJSONTransformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKJSONTransformatter.h; sourceTree = "<group>"; };
 		F1EDC87D1D7027B90040D689 /* SKJSONTransformatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKJSONTransformatter.m; sourceTree = "<group>"; };
 		F1EDC87E1D7027B90040D689 /* SKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMacros.h; sourceTree = "<group>"; };
-		F1EDC87F1D7027B90040D689 /* SKSingletonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSingletonMacro.h; sourceTree = "<group>"; };
 		F1EDC8801D7027B90040D689 /* StealKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StealKit.h; sourceTree = "<group>"; };
 		F1EDC8811D7027B90040D689 /* UIView+SKGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKGeometry.h"; sourceTree = "<group>"; };
 		F1EDC8821D7027B90040D689 /* UIView+SKGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKGeometry.m"; sourceTree = "<group>"; };
 		F1EDC8831D7027B90040D689 /* UIView+SKStoryBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKStoryBoard.h"; sourceTree = "<group>"; };
 		F1EDC8841D7027B90040D689 /* UIView+SKStoryBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKStoryBoard.m"; sourceTree = "<group>"; };
+		F1EDC8901D7412B80040D689 /* UIImage+SKImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SKImageWithColor.h"; sourceTree = "<group>"; };
+		F1EDC8911D7412B80040D689 /* UIImage+SKImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SKImageWithColor.m"; sourceTree = "<group>"; };
+		F1EDC8931D7414D80040D689 /* UIButton+SKColorForState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SKColorForState.h"; sourceTree = "<group>"; };
+		F1EDC8941D7414D80040D689 /* UIButton+SKColorForState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SKColorForState.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,8 @@
 		F1EDC86B1D7027B90040D689 /* StealKit */ = {
 			isa = PBXGroup;
 			children = (
+				F1EDC8801D7027B90040D689 /* StealKit.h */,
+				F1EDC87E1D7027B90040D689 /* SKMacros.h */,
 				F1EDC86C1D7027B90040D689 /* NSArray+SKProtection.h */,
 				F1EDC86D1D7027B90040D689 /* NSArray+SKProtection.m */,
 				F1EDC86E1D7027B90040D689 /* NSDictionary+SKProtection.h */,
@@ -137,13 +144,14 @@
 				F1EDC87B1D7027B90040D689 /* NSString+SKURLEncode.m */,
 				F1EDC87C1D7027B90040D689 /* SKJSONTransformatter.h */,
 				F1EDC87D1D7027B90040D689 /* SKJSONTransformatter.m */,
-				F1EDC87E1D7027B90040D689 /* SKMacros.h */,
-				F1EDC87F1D7027B90040D689 /* SKSingletonMacro.h */,
-				F1EDC8801D7027B90040D689 /* StealKit.h */,
 				F1EDC8811D7027B90040D689 /* UIView+SKGeometry.h */,
 				F1EDC8821D7027B90040D689 /* UIView+SKGeometry.m */,
 				F1EDC8831D7027B90040D689 /* UIView+SKStoryBoard.h */,
 				F1EDC8841D7027B90040D689 /* UIView+SKStoryBoard.m */,
+				F1EDC8901D7412B80040D689 /* UIImage+SKImageWithColor.h */,
+				F1EDC8911D7412B80040D689 /* UIImage+SKImageWithColor.m */,
+				F1EDC8931D7414D80040D689 /* UIButton+SKColorForState.h */,
+				F1EDC8941D7414D80040D689 /* UIButton+SKColorForState.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 				F1EDC8861D7027B90040D689 /* NSDictionary+SKProtection.m in Sources */,
 				F1EDC88F1D7027B90040D689 /* UIView+SKStoryBoard.m in Sources */,
 				F1EDC85C1D70275B0040D689 /* ViewController.m in Sources */,
+				F1EDC8921D7412B80040D689 /* UIImage+SKImageWithColor.m in Sources */,
 				F1EDC88C1D7027B90040D689 /* NSString+SKURLEncode.m in Sources */,
 				F1EDC8871D7027B90040D689 /* NSMutableArray+SKProtection.m in Sources */,
 				F1EDC88B1D7027B90040D689 /* NSString+SKTransformatter.m in Sources */,
@@ -232,6 +241,7 @@
 				F1EDC88D1D7027B90040D689 /* SKJSONTransformatter.m in Sources */,
 				F1EDC8591D70275B0040D689 /* AppDelegate.m in Sources */,
 				F1EDC8561D70275B0040D689 /* main.m in Sources */,
+				F1EDC8951D7414D80040D689 /* UIButton+SKColorForState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +392,7 @@
 				F1EDC86A1D70275B0040D689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

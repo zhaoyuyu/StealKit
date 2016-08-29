@@ -9,8 +9,6 @@
 #ifndef SKMacros_h
 #define SKMacros_h
 
-#import "SKSingletonMacro.h"
-
 #define SCREEN_WIDTH  [[UIScreen mainScreen] bounds].size.width
 
 #define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
