@@ -29,5 +29,7 @@
 #import "UIApplication+SKDirectories.h"
 #import "UIView+SKGeometry.h"
 #import "UIView+SKStoryBoard.h"
+#import "NSString+SKVersionComparison.h"
+#import "UIDevice+SKVersionComparison.h"
 
 #endif /* StealKit_h */

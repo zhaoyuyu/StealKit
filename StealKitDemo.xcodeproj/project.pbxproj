@@ -29,6 +29,8 @@
 		F1EDC8981D741DC90040D689 /* NSBundle+SKTargetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8971D741DC90040D689 /* NSBundle+SKTargetInfo.m */; };
 		F1EDC89B1D74238B0040D689 /* NSString+SKURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC89A1D74238B0040D689 /* NSString+SKURL.m */; };
 		F1EDC89E1D74298C0040D689 /* UIApplication+SKDirectories.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC89D1D74298C0040D689 /* UIApplication+SKDirectories.m */; };
+		F1EDC8A11D7432240040D689 /* NSString+SKVersionComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8A01D7432240040D689 /* NSString+SKVersionComparison.m */; };
+		F1EDC8A41D7435F30040D689 /* UIDevice+SKVersionComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8A31D7435F30040D689 /* UIDevice+SKVersionComparison.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,10 @@
 		F1EDC89A1D74238B0040D689 /* NSString+SKURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKURL.m"; sourceTree = "<group>"; };
 		F1EDC89C1D74298C0040D689 /* UIApplication+SKDirectories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SKDirectories.h"; sourceTree = "<group>"; };
 		F1EDC89D1D74298C0040D689 /* UIApplication+SKDirectories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SKDirectories.m"; sourceTree = "<group>"; };
+		F1EDC89F1D7432240040D689 /* NSString+SKVersionComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKVersionComparison.h"; sourceTree = "<group>"; };
+		F1EDC8A01D7432240040D689 /* NSString+SKVersionComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKVersionComparison.m"; sourceTree = "<group>"; };
+		F1EDC8A21D7435F30040D689 /* UIDevice+SKVersionComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SKVersionComparison.h"; sourceTree = "<group>"; };
+		F1EDC8A31D7435F30040D689 /* UIDevice+SKVersionComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SKVersionComparison.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,10 @@
 				F1EDC8791D7027B90040D689 /* NSString+SKTransformatter.m */,
 				F1EDC87A1D7027B90040D689 /* NSString+SKURLEncode.h */,
 				F1EDC87B1D7027B90040D689 /* NSString+SKURLEncode.m */,
+				F1EDC89F1D7432240040D689 /* NSString+SKVersionComparison.h */,
+				F1EDC8A01D7432240040D689 /* NSString+SKVersionComparison.m */,
+				F1EDC8A21D7435F30040D689 /* UIDevice+SKVersionComparison.h */,
+				F1EDC8A31D7435F30040D689 /* UIDevice+SKVersionComparison.m */,
 				F1EDC87C1D7027B90040D689 /* SKJSONTransformatter.h */,
 				F1EDC87D1D7027B90040D689 /* SKJSONTransformatter.m */,
 				F1EDC8961D741DC90040D689 /* NSBundle+SKTargetInfo.h */,
@@ -241,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EDC8A41D7435F30040D689 /* UIDevice+SKVersionComparison.m in Sources */,
 				F1EDC8861D7027B90040D689 /* NSDictionary+SKProtection.m in Sources */,
 				F1EDC88F1D7027B90040D689 /* UIView+SKStoryBoard.m in Sources */,
 				F1EDC85C1D70275B0040D689 /* ViewController.m in Sources */,
@@ -249,6 +260,7 @@
 				F1EDC88C1D7027B90040D689 /* NSString+SKURLEncode.m in Sources */,
 				F1EDC8871D7027B90040D689 /* NSMutableArray+SKProtection.m in Sources */,
 				F1EDC88B1D7027B90040D689 /* NSString+SKTransformatter.m in Sources */,
+				F1EDC8A11D7432240040D689 /* NSString+SKVersionComparison.m in Sources */,
 				F1EDC88A1D7027B90040D689 /* NSString+SKEncryption.m in Sources */,
 				F1EDC8881D7027B90040D689 /* NSMutableDictionary+SKProtection.m in Sources */,
 				F1EDC88E1D7027B90040D689 /* UIView+SKGeometry.m in Sources */,
