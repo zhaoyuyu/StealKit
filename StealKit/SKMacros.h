@@ -13,21 +13,21 @@
 
 #define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
 
-#define TARGETED_DEVICE_IS_IPAD UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 
-#define TARGETED_DEVICE_IS_IPHONE UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 
 #define DEGREES_TO_RADIANS(degrees) degrees * M_PI / 180
 
 #define UIColorFromRGB(rgbValue) \
-    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
-                    green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
-                     blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+        [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+                        green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+                         blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 #define UIColorFromRGBA(rgbValue,A) \
-    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
-                    green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
-                     blue:((float)(rgbValue & 0xFF))/255.0 alpha:A]
+        [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+                        green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+                         blue:((float)(rgbValue & 0xFF))/255.0 alpha:A]
 
 #define SingletonImplemantion \
 
