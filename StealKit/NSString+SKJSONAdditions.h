@@ -1,5 +1,5 @@
 //
-//  SKJSON.h
+//  NSString+SKJSONAdditions.h
 //  StealKit
 //
 //  Created by 赵瑜瑜 on 16/8/26.
@@ -8,15 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (SKJSONTransformatter)
+@interface NSString (SKJSONAdditions)
 
 - (id)sk_JSONValue;
 
 @end
 
-@interface NSObject (SKJSONTransformatter)
+@interface NSObject (SKJSONAdditions)
 
-- (NSString *)sk_JSONRepresentation;
+- (NSString *)sk_JSONString;
 
 @end
 

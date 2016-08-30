@@ -1,14 +1,14 @@
 //
 //  UIImage+SKImageWithColor.m
-//  StealKitDemo
+//  StealKit
 //
 //  Created by 赵瑜瑜 on 16/8/29.
 //  Copyright © 2016年 StealKit. All rights reserved.
 //
 
-#import "UIImage+SKImageWithColor.h"
+#import "UIImage+SKAdditions.h"
 
-@implementation UIImage (SKImageWithColor)
+@implementation UIImage (SKAdditions)
 
 + (instancetype)sk_imageWithColor:(UIColor *)color
 {

@@ -1,13 +1,13 @@
 //
 //  UIButton+SKColorForState.m
-//  StealKitDemo
+//  StealKit
 //
 //  Created by 赵瑜瑜 on 16/8/29.
 //  Copyright © 2016年 StealKit. All rights reserved.
 //
 
 #import "UIButton+SKColorForState.h"
-#import "UIImage+SKImageWithColor.h"
+#import "UIImage+SKAdditions.h"
 
 @implementation UIButton (SKColorForState)
 
