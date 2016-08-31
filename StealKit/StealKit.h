@@ -39,5 +39,6 @@
 #import "UIGestureRecognizer+SKBlockSupport.h"
 #import "UIApplication+SKSoundsPlay.h"
 #import "SKTextField.h"
+#import "SKTextView.h"
 
 #endif /* StealKit_h */
