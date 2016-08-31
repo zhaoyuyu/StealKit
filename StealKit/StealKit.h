@@ -36,5 +36,6 @@
 #import "UIControl+SKBlockSupport.h"
 #import "UIBarButtonItem+SKBlockSupport.h"
 #import "UIGestureRecognizer+SKBlockSupport.h"
+#import "UIApplication+SKSoundsPlay.h"
 
 #endif /* StealKit_h */

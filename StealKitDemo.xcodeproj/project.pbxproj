@@ -36,6 +36,7 @@
 		F1EDC8BA1D7567600040D689 /* NSTimer+SKBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8B91D7567600040D689 /* NSTimer+SKBlockSupport.m */; };
 		F1EDC8BE1D7568BE0040D689 /* UIControl+SKBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8BD1D7568BE0040D689 /* UIControl+SKBlockSupport.m */; };
 		F1EDC8C11D7576DD0040D689 /* SKKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8C01D7576DD0040D689 /* SKKeyChain.m */; };
+		F1EDC8CB1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8CA1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,8 @@
 		F1EDC8BD1D7568BE0040D689 /* UIControl+SKBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SKBlockSupport.m"; sourceTree = "<group>"; };
 		F1EDC8C01D7576DD0040D689 /* SKKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKKeyChain.m; sourceTree = "<group>"; };
 		F1EDC8C21D7577AB0040D689 /* SKKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKKeyChain.h; sourceTree = "<group>"; };
+		F1EDC8C91D7675EF0040D689 /* UIApplication+SKSoundsPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SKSoundsPlay.h"; sourceTree = "<group>"; };
+		F1EDC8CA1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SKSoundsPlay.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +205,8 @@
 				F1EDC8AD1D751EF40040D689 /* UIGestureRecognizer+SKBlockSupport.m */,
 				F1EDC8C21D7577AB0040D689 /* SKKeyChain.h */,
 				F1EDC8C01D7576DD0040D689 /* SKKeyChain.m */,
+				F1EDC8C91D7675EF0040D689 /* UIApplication+SKSoundsPlay.h */,
+				F1EDC8CA1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EDC8CB1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m in Sources */,
 				F1EDC8A41D7435F30040D689 /* UIDevice+SKVersionComparison.m in Sources */,
 				F1EDC8861D7027B90040D689 /* NSDictionary+SKProtection.m in Sources */,
 				F1EDC88F1D7027B90040D689 /* UIView+SKStoryBoard.m in Sources */,
