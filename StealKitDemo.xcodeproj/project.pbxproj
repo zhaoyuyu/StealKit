@@ -39,6 +39,7 @@
 		F1EDC8CB1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8CA1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m */; };
 		F1EDC8D11D76B78B0040D689 /* NSDate+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8D01D76B78B0040D689 /* NSDate+SKAdditions.m */; };
 		F1EDC8D41D76BCB00040D689 /* SKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8D31D76BCB00040D689 /* SKTextField.m */; };
+		F1EDC8D71D76BFAA0040D689 /* SKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8D61D76BFAA0040D689 /* SKTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,8 @@
 		F1EDC8D01D76B78B0040D689 /* NSDate+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SKAdditions.m"; sourceTree = "<group>"; };
 		F1EDC8D21D76BCB00040D689 /* SKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextField.h; sourceTree = "<group>"; };
 		F1EDC8D31D76BCB00040D689 /* SKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextField.m; sourceTree = "<group>"; };
+		F1EDC8D51D76BFAA0040D689 /* SKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextView.h; sourceTree = "<group>"; };
+		F1EDC8D61D76BFAA0040D689 /* SKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,8 @@
 				F1EDC8D01D76B78B0040D689 /* NSDate+SKAdditions.m */,
 				F1EDC8D21D76BCB00040D689 /* SKTextField.h */,
 				F1EDC8D31D76BCB00040D689 /* SKTextField.m */,
+				F1EDC8D51D76BFAA0040D689 /* SKTextView.h */,
+				F1EDC8D61D76BFAA0040D689 /* SKTextView.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";
@@ -312,6 +317,7 @@
 				F1EDC89E1D74298C0040D689 /* UIApplication+SKDirectory.m in Sources */,
 				F1EDC8851D7027B90040D689 /* NSArray+SKProtection.m in Sources */,
 				F1EDC88D1D7027B90040D689 /* NSString+SKJSONAdditions.m in Sources */,
+				F1EDC8D71D76BFAA0040D689 /* SKTextView.m in Sources */,
 				F1EDC8BA1D7567600040D689 /* NSTimer+SKBlockSupport.m in Sources */,
 				F1EDC8C11D7576DD0040D689 /* SKKeyChain.m in Sources */,
 				F1EDC8591D70275B0040D689 /* AppDelegate.m in Sources */,
