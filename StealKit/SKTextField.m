@@ -1,6 +1,6 @@
 //
 //  SKTextField.m
-//  StealKitDemo
+//  StealKit
 //
 //  Created by 赵瑜瑜 on 16/8/31.
 //  Copyright © 2016年 StealKit. All rights reserved.
