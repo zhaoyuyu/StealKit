@@ -6,7 +6,7 @@
 //  Copyright © 2016年 StealKit. All rights reserved.
 //  Includes code by zwaldowski. https://github.com/zwaldowski/BlocksKit.
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface UIControl (SKBlockSupport)
 

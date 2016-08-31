@@ -25,11 +25,12 @@
 #import "NSString+SKTransformatter.h"
 #import "NSBundle+SKTargetInfo.h"
 #import "NSTimer+SKBlockSupport.h"
+#import "NSDate+SKAdditions.h"
 #import "SKKeyChain.h"
 
 #import "UIImage+SKImageWithColor.h"
 #import "UIButton+SKColorForState.h"
-#import "UIApplication+SKDirectories.h"
+#import "UIApplication+SKDirectory.h"
 #import "UIView+SKGeometry.h"
 #import "UIView+SKStoryBoard.h"
 #import "UIDevice+SKVersionComparison.h"
@@ -37,5 +38,6 @@
 #import "UIBarButtonItem+SKBlockSupport.h"
 #import "UIGestureRecognizer+SKBlockSupport.h"
 #import "UIApplication+SKSoundsPlay.h"
+#import "SKTextField.h"
 
 #endif /* StealKit_h */

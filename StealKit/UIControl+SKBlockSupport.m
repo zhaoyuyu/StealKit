@@ -6,8 +6,8 @@
 //  Copyright © 2016年 StealKit. All rights reserved.
 //
 
+@import ObjectiveC.runtime;
 #import "UIControl+SKBlockSupport.h"
-#import <objc/runtime.h>
 
 static const void *SKControlHandlersKey = &SKControlHandlersKey;
 

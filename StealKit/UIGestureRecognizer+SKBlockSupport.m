@@ -3,7 +3,7 @@
 //  StealKit
 //
 
-#import <objc/runtime.h>
+@import ObjectiveC.runtime;
 #import "UIGestureRecognizer+SKBlockSupport.h"
 
 static const void *SKGestureRecognizerBlockKey = &SKGestureRecognizerBlockKey;

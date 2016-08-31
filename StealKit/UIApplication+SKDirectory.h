@@ -6,9 +6,9 @@
 //  Copyright © 2016年 StealKit. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
-@interface UIApplication (SKDirectories)
+@interface UIApplication (SKDirectory)
 
 + (NSString *)sk_documentDirectory;
 

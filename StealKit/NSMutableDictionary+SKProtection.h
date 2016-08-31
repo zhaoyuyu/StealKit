@@ -6,7 +6,7 @@
 //  Copyright © 2016年 StealKit. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @interface NSMutableDictionary (SKProtection)
 

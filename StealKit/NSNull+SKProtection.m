@@ -7,8 +7,8 @@
 //
 
 #import "NSNull+SKProtection.h"
-#import <objc/runtime.h>
-#import <Foundation/Foundation.h>
+@import ObjectiveC.runtime;
+@import Foundation;
 
 #ifndef SK_PROTECTION_ENABLED
 #define SK_PROTECTION_ENABLED 1

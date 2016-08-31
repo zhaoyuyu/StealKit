@@ -3,7 +3,7 @@
 //  StealKit
 //
 
-#import <objc/runtime.h>
+@import ObjectiveC.runtime;
 #import "UIBarButtonItem+SKBlockSupport.h"
 
 static const void *SKBarButtonItemBlockKey = &SKBarButtonItemBlockKey;
