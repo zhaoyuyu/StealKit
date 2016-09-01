@@ -187,6 +187,8 @@
 				F1EDC8791D7027B90040D689 /* NSString+SKTransformatter.m */,
 				F1EDC87A1D7027B90040D689 /* NSString+SKURLEncode.h */,
 				F1EDC87B1D7027B90040D689 /* NSString+SKURLEncode.m */,
+				F1EDC8D91D7826640040D689 /* NSString+SKAdditions.h */,
+				F1EDC8DA1D7826640040D689 /* NSString+SKAdditions.m */,
 				F1EDC89F1D7432240040D689 /* NSString+SKVersionComparison.h */,
 				F1EDC8A01D7432240040D689 /* NSString+SKVersionComparison.m */,
 				F1EDC8A21D7435F30040D689 /* UIDevice+SKVersionComparison.h */,
@@ -225,8 +227,6 @@
 				F1EDC8D31D76BCB00040D689 /* SKTextField.m */,
 				F1EDC8D51D76BFAA0040D689 /* SKTextView.h */,
 				F1EDC8D61D76BFAA0040D689 /* SKTextView.m */,
-				F1EDC8D91D7826640040D689 /* NSString+SKAdditions.h */,
-				F1EDC8DA1D7826640040D689 /* NSString+SKAdditions.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";

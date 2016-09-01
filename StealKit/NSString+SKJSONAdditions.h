@@ -10,7 +10,7 @@
 
 @interface NSString (SKJSONAdditions)
 
-- (id)sk_JSONValue;
+- (id)sk_JSONObject;
 
 @end
 

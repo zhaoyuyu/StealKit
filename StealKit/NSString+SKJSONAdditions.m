@@ -10,7 +10,7 @@
 
 @implementation NSString (SKJSONAdditions)
 
-- (id)sk_JSONValue
+- (id)sk_JSONObject
 {
     NSData *jsonData = [self dataUsingEncoding:NSUTF8StringEncoding];
     NSError *error;
