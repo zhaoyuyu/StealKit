@@ -40,6 +40,7 @@
 		F1EDC8D11D76B78B0040D689 /* NSDate+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8D01D76B78B0040D689 /* NSDate+SKAdditions.m */; };
 		F1EDC8D41D76BCB00040D689 /* SKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8D31D76BCB00040D689 /* SKTextField.m */; };
 		F1EDC8D71D76BFAA0040D689 /* SKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8D61D76BFAA0040D689 /* SKTextView.m */; };
+		F1EDC8DB1D7826640040D689 /* NSString+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8DA1D7826640040D689 /* NSString+SKAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +110,8 @@
 		F1EDC8D31D76BCB00040D689 /* SKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextField.m; sourceTree = "<group>"; };
 		F1EDC8D51D76BFAA0040D689 /* SKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextView.h; sourceTree = "<group>"; };
 		F1EDC8D61D76BFAA0040D689 /* SKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextView.m; sourceTree = "<group>"; };
+		F1EDC8D91D7826640040D689 /* NSString+SKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKAdditions.h"; sourceTree = "<group>"; };
+		F1EDC8DA1D7826640040D689 /* NSString+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +225,8 @@
 				F1EDC8D31D76BCB00040D689 /* SKTextField.m */,
 				F1EDC8D51D76BFAA0040D689 /* SKTextView.h */,
 				F1EDC8D61D76BFAA0040D689 /* SKTextView.m */,
+				F1EDC8D91D7826640040D689 /* NSString+SKAdditions.h */,
+				F1EDC8DA1D7826640040D689 /* NSString+SKAdditions.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";
@@ -326,6 +331,7 @@
 				F1EDC8D41D76BCB00040D689 /* SKTextField.m in Sources */,
 				F1EDC8951D7414D80040D689 /* UIButton+SKColorForState.m in Sources */,
 				F1EDC89B1D74238B0040D689 /* NSString+SKURL.m in Sources */,
+				F1EDC8DB1D7826640040D689 /* NSString+SKAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
