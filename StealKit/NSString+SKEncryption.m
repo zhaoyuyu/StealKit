@@ -26,12 +26,12 @@
 
 - (NSString *)sk_BASE64Encode
 {
-    return [self.sk_data base64EncodedStringWithOptions:0];
+    return [self.sk_dataValue base64EncodedStringWithOptions:0];
 }
 
 - (NSString *)sk_BASE64Decode
 {
-    return [[NSData alloc] initWithBase64EncodedString:self options:NSDataBase64DecodingIgnoreUnknownCharacters].sk_string;
+    return [[NSData alloc] initWithBase64EncodedString:self options:NSDataBase64DecodingIgnoreUnknownCharacters].sk_stringValue;
 }
 
 @end

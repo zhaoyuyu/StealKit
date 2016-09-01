@@ -10,7 +10,7 @@
 
 @implementation NSString (SKTransformatter)
 
-- (NSData *)sk_data
+- (NSData *)sk_dataValue
 {
     return [self dataUsingEncoding:NSUTF8StringEncoding];
 }
@@ -19,7 +19,7 @@
 
 @implementation NSData (SKTransformatter)
 
-- (NSString *)sk_string
+- (NSString *)sk_stringValue
 {
     return [[NSString alloc] initWithData:self encoding:NSUTF8StringEncoding];
 }

@@ -10,13 +10,13 @@
 
 @interface NSString (SKTransformatter)
 
-- (NSData *)sk_data;
+- (NSData *)sk_dataValue;
 
 @end
 
 @interface NSData (SKTransformatter)
 
-- (NSString *)sk_string;
+- (NSString *)sk_stringValue;
 
 @end
 
