@@ -17,7 +17,7 @@
 
 + (NSString *)sk_appVersion
 {
-    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
 
 + (NSString *)sk_appBundleIdentifier
