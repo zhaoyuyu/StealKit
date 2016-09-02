@@ -12,6 +12,14 @@
 
 + (instancetype)sk_imageWithColor:(UIColor *)color;
 
-- (UIImage *)sk_imageByResize:(CGSize)anotherSize;
++ (instancetype)sk_imageWithColor:(UIColor *)color size:(CGSize)size;
+
+- (instancetype)sk_imageByResize:(CGSize)anotherSize;
+
+- (instancetype)sk_gray;
+
+- (instancetype)sk_croppedImageAtFrame:(CGRect)frame;
+
+- (instancetype)sk_circular;
 
 @end

@@ -11,6 +11,9 @@
 @interface NSString (SKURLEncode)
 
 - (NSString *)sk_URLEncode;
+
 - (NSString *)sk_URLDecode;
+
+- (NSString *)sk_stringByEscapingHTML;
 
 @end

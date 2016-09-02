@@ -46,6 +46,8 @@
 		F1EDC8E41D7917260040D689 /* NSUserDefaults+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E31D7917260040D689 /* NSUserDefaults+SKAdditions.m */; };
 		F1EDC8E71D79187A0040D689 /* NSNotificationCenter+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E61D79187A0040D689 /* NSNotificationCenter+SKAdditions.m */; };
 		F1EDC8EA1D791E7B0040D689 /* UIDevice+SKModelName.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E91D791E7B0040D689 /* UIDevice+SKModelName.m */; };
+		F1EDC8ED1D79654C0040D689 /* UIView+SKNibAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8EC1D79654C0040D689 /* UIView+SKNibAdditions.m */; };
+		F1EDC8F01D7967620040D689 /* UITextField+SKPlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8EF1D7967620040D689 /* UITextField+SKPlaceholderColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,6 +129,10 @@
 		F1EDC8E61D79187A0040D689 /* NSNotificationCenter+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+SKAdditions.m"; sourceTree = "<group>"; };
 		F1EDC8E81D791E7B0040D689 /* UIDevice+SKModelName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SKModelName.h"; sourceTree = "<group>"; };
 		F1EDC8E91D791E7B0040D689 /* UIDevice+SKModelName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SKModelName.m"; sourceTree = "<group>"; };
+		F1EDC8EB1D79654C0040D689 /* UIView+SKNibAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKNibAdditions.h"; sourceTree = "<group>"; };
+		F1EDC8EC1D79654C0040D689 /* UIView+SKNibAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKNibAdditions.m"; sourceTree = "<group>"; };
+		F1EDC8EE1D7967620040D689 /* UITextField+SKPlaceholderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SKPlaceholderColor.h"; sourceTree = "<group>"; };
+		F1EDC8EF1D7967620040D689 /* UITextField+SKPlaceholderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SKPlaceholderColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +234,8 @@
 				F1EDC8821D7027B90040D689 /* UIView+SKGeometry.m */,
 				F1EDC8831D7027B90040D689 /* UIView+SKStoryBoard.h */,
 				F1EDC8841D7027B90040D689 /* UIView+SKStoryBoard.m */,
+				F1EDC8EB1D79654C0040D689 /* UIView+SKNibAdditions.h */,
+				F1EDC8EC1D79654C0040D689 /* UIView+SKNibAdditions.m */,
 				F1EDC8901D7412B80040D689 /* UIImage+SKAdditions.h */,
 				F1EDC8911D7412B80040D689 /* UIImage+SKAdditions.m */,
 				F1EDC8931D7414D80040D689 /* UIButton+SKColorForState.h */,
@@ -252,6 +260,8 @@
 				F1EDC8D31D76BCB00040D689 /* SKTextField.m */,
 				F1EDC8D51D76BFAA0040D689 /* SKTextView.h */,
 				F1EDC8D61D76BFAA0040D689 /* SKTextView.m */,
+				F1EDC8EE1D7967620040D689 /* UITextField+SKPlaceholderColor.h */,
+				F1EDC8EF1D7967620040D689 /* UITextField+SKPlaceholderColor.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";
@@ -328,6 +338,7 @@
 			files = (
 				F1EDC8CB1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m in Sources */,
 				F1EDC8A41D7435F30040D689 /* UIDevice+SKVersionComparison.m in Sources */,
+				F1EDC8ED1D79654C0040D689 /* UIView+SKNibAdditions.m in Sources */,
 				F1EDC8EA1D791E7B0040D689 /* UIDevice+SKModelName.m in Sources */,
 				F1EDC8861D7027B90040D689 /* NSDictionary+SKProtection.m in Sources */,
 				F1EDC88F1D7027B90040D689 /* UIView+SKStoryBoard.m in Sources */,
@@ -341,6 +352,7 @@
 				F1EDC8E41D7917260040D689 /* NSUserDefaults+SKAdditions.m in Sources */,
 				F1EDC88B1D7027B90040D689 /* NSString+SKTransformatter.m in Sources */,
 				F1EDC8AE1D751EF40040D689 /* UIBarButtonItem+SKBlockSupport.m in Sources */,
+				F1EDC8F01D7967620040D689 /* UITextField+SKPlaceholderColor.m in Sources */,
 				F1EDC8BE1D7568BE0040D689 /* UIControl+SKBlockSupport.m in Sources */,
 				F1EDC8A11D7432240040D689 /* NSString+SKVersionComparison.m in Sources */,
 				F1EDC88A1D7027B90040D689 /* NSString+SKEncryption.m in Sources */,

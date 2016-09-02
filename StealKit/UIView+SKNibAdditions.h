@@ -1,5 +1,5 @@
 //
-//  UIDevice+SKModelName.h
+//  UIView+SKNib.h
 //  StealKitDemo
 //
 //  Created by 赵瑜瑜 on 16/9/2.
@@ -8,12 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIDevice (SKModelName)
+@interface UIView (SKNibAdditions)
 
-+ (NSString *)sk_modelName;
-
-+ (BOOL)sk_isPad;
-
-+ (BOOL)sk_isiPhone;
++ (instancetype)sk_loadFromNib;
 
 @end

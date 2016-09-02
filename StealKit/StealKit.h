@@ -37,6 +37,8 @@
 #import "UIApplication+SKDirectory.h"
 #import "UIView+SKGeometry.h"
 #import "UIView+SKStoryBoard.h"
+#import "UIView+SKNibAdditions.h"
+#import "UITextField+SKPlaceholderColor.h"
 #import "UIDevice+SKVersionComparison.h"
 #import "UIDevice+SKUUID.h"
 #import "UIDevice+SKModelName.h"

@@ -90,4 +90,24 @@
     return modelName;
 }
 
++ (BOOL)sk_isPad
+{
+    static dispatch_once_t one;
+    static BOOL isiPad;
+    dispatch_once(&one, ^{
+        isiPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
+    });
+    return isiPad;
+}
+
++ (BOOL)sk_isiPhone
+{
+    static dispatch_once_t one;
+    static BOOL isiPhone;
+    dispatch_once(&one, ^{
+        isiPhone = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone;
+    });
+    return isiPhone;
+}
+
 @end
