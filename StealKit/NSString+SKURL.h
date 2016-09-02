@@ -10,7 +10,7 @@
 
 @interface NSString (SKURL)
 
-- (NSDictionary *)sk_URLQueryParameters;
+- (NSDictionary *)sk_URLQueryDictionary;
 
 @end
 

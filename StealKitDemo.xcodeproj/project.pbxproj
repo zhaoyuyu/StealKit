@@ -41,6 +41,8 @@
 		F1EDC8D41D76BCB00040D689 /* SKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8D31D76BCB00040D689 /* SKTextField.m */; };
 		F1EDC8D71D76BFAA0040D689 /* SKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8D61D76BFAA0040D689 /* SKTextView.m */; };
 		F1EDC8DB1D7826640040D689 /* NSString+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8DA1D7826640040D689 /* NSString+SKAdditions.m */; };
+		F1EDC8DE1D790ECA0040D689 /* NSString+SKUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8DD1D790ECA0040D689 /* NSString+SKUUID.m */; };
+		F1EDC8E11D790F3B0040D689 /* UIDevice+SKUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E01D790F3B0040D689 /* UIDevice+SKUUID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +114,10 @@
 		F1EDC8D61D76BFAA0040D689 /* SKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextView.m; sourceTree = "<group>"; };
 		F1EDC8D91D7826640040D689 /* NSString+SKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKAdditions.h"; sourceTree = "<group>"; };
 		F1EDC8DA1D7826640040D689 /* NSString+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKAdditions.m"; sourceTree = "<group>"; };
+		F1EDC8DC1D790ECA0040D689 /* NSString+SKUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKUUID.h"; sourceTree = "<group>"; };
+		F1EDC8DD1D790ECA0040D689 /* NSString+SKUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKUUID.m"; sourceTree = "<group>"; };
+		F1EDC8DF1D790F3B0040D689 /* UIDevice+SKUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SKUUID.h"; sourceTree = "<group>"; };
+		F1EDC8E01D790F3B0040D689 /* UIDevice+SKUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SKUUID.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +191,10 @@
 				F1EDC8771D7027B90040D689 /* NSString+SKEncryption.m */,
 				F1EDC8781D7027B90040D689 /* NSString+SKTransformatter.h */,
 				F1EDC8791D7027B90040D689 /* NSString+SKTransformatter.m */,
+				F1EDC8DC1D790ECA0040D689 /* NSString+SKUUID.h */,
+				F1EDC8DD1D790ECA0040D689 /* NSString+SKUUID.m */,
+				F1EDC8DF1D790F3B0040D689 /* UIDevice+SKUUID.h */,
+				F1EDC8E01D790F3B0040D689 /* UIDevice+SKUUID.m */,
 				F1EDC87A1D7027B90040D689 /* NSString+SKURLEncode.h */,
 				F1EDC87B1D7027B90040D689 /* NSString+SKURLEncode.m */,
 				F1EDC8D91D7826640040D689 /* NSString+SKAdditions.h */,
@@ -305,6 +315,7 @@
 				F1EDC8A41D7435F30040D689 /* UIDevice+SKVersionComparison.m in Sources */,
 				F1EDC8861D7027B90040D689 /* NSDictionary+SKProtection.m in Sources */,
 				F1EDC88F1D7027B90040D689 /* UIView+SKStoryBoard.m in Sources */,
+				F1EDC8DE1D790ECA0040D689 /* NSString+SKUUID.m in Sources */,
 				F1EDC85C1D70275B0040D689 /* ViewController.m in Sources */,
 				F1EDC8B01D751EF40040D689 /* UIGestureRecognizer+SKBlockSupport.m in Sources */,
 				F1EDC8981D741DC90040D689 /* NSBundle+SKTargetInfo.m in Sources */,
@@ -329,6 +340,7 @@
 				F1EDC8D11D76B78B0040D689 /* NSDate+SKAdditions.m in Sources */,
 				F1EDC8561D70275B0040D689 /* main.m in Sources */,
 				F1EDC8D41D76BCB00040D689 /* SKTextField.m in Sources */,
+				F1EDC8E11D790F3B0040D689 /* UIDevice+SKUUID.m in Sources */,
 				F1EDC8951D7414D80040D689 /* UIButton+SKColorForState.m in Sources */,
 				F1EDC89B1D74238B0040D689 /* NSString+SKURL.m in Sources */,
 				F1EDC8DB1D7826640040D689 /* NSString+SKAdditions.m in Sources */,

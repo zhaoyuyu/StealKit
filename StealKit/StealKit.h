@@ -24,6 +24,7 @@
 #import "NSString+SKVersionComparison.h"
 #import "NSString+SKTransformatter.h"
 #import "NSString+SKAdditions.h"
+#import "NSString+SKUUID.h"
 #import "NSBundle+SKTargetInfo.h"
 #import "NSTimer+SKBlockSupport.h"
 #import "NSDate+SKAdditions.h"

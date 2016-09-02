@@ -11,7 +11,7 @@
 
 @implementation NSString (SKURL)
 
-- (NSDictionary *)sk_URLQueryParameters
+- (NSDictionary *)sk_URLQueryDictionary
 {
     NSMutableDictionary *result = [NSMutableDictionary dictionary];
     NSArray *parameters = [self componentsSeparatedByString:@"&"];
