@@ -28,6 +28,8 @@
 #import "NSBundle+SKTargetInfo.h"
 #import "NSTimer+SKBlockSupport.h"
 #import "NSDate+SKAdditions.h"
+#import "NSNotificationCenter+SKAdditions.h"
+#import "NSUserDefaults+SKAdditions.h"
 #import "SKKeyChain.h"
 
 #import "UIImage+SKImageWithColor.h"
