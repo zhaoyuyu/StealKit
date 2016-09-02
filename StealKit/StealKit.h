@@ -39,6 +39,7 @@
 #import "UIView+SKStoryBoard.h"
 #import "UIDevice+SKVersionComparison.h"
 #import "UIDevice+SKUUID.h"
+#import "UIDevice+SKModelName.h"
 #import "UIControl+SKBlockSupport.h"
 #import "UIBarButtonItem+SKBlockSupport.h"
 #import "UIGestureRecognizer+SKBlockSupport.h"

@@ -45,6 +45,7 @@
 		F1EDC8E11D790F3B0040D689 /* UIDevice+SKUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E01D790F3B0040D689 /* UIDevice+SKUUID.m */; };
 		F1EDC8E41D7917260040D689 /* NSUserDefaults+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E31D7917260040D689 /* NSUserDefaults+SKAdditions.m */; };
 		F1EDC8E71D79187A0040D689 /* NSNotificationCenter+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E61D79187A0040D689 /* NSNotificationCenter+SKAdditions.m */; };
+		F1EDC8EA1D791E7B0040D689 /* UIDevice+SKModelName.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E91D791E7B0040D689 /* UIDevice+SKModelName.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +125,8 @@
 		F1EDC8E31D7917260040D689 /* NSUserDefaults+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+SKAdditions.m"; sourceTree = "<group>"; };
 		F1EDC8E51D79187A0040D689 /* NSNotificationCenter+SKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+SKAdditions.h"; sourceTree = "<group>"; };
 		F1EDC8E61D79187A0040D689 /* NSNotificationCenter+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+SKAdditions.m"; sourceTree = "<group>"; };
+		F1EDC8E81D791E7B0040D689 /* UIDevice+SKModelName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SKModelName.h"; sourceTree = "<group>"; };
+		F1EDC8E91D791E7B0040D689 /* UIDevice+SKModelName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SKModelName.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +204,8 @@
 				F1EDC8DD1D790ECA0040D689 /* NSString+SKUUID.m */,
 				F1EDC8DF1D790F3B0040D689 /* UIDevice+SKUUID.h */,
 				F1EDC8E01D790F3B0040D689 /* UIDevice+SKUUID.m */,
+				F1EDC8E81D791E7B0040D689 /* UIDevice+SKModelName.h */,
+				F1EDC8E91D791E7B0040D689 /* UIDevice+SKModelName.m */,
 				F1EDC87A1D7027B90040D689 /* NSString+SKURLEncode.h */,
 				F1EDC87B1D7027B90040D689 /* NSString+SKURLEncode.m */,
 				F1EDC8D91D7826640040D689 /* NSString+SKAdditions.h */,
@@ -323,6 +328,7 @@
 			files = (
 				F1EDC8CB1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m in Sources */,
 				F1EDC8A41D7435F30040D689 /* UIDevice+SKVersionComparison.m in Sources */,
+				F1EDC8EA1D791E7B0040D689 /* UIDevice+SKModelName.m in Sources */,
 				F1EDC8861D7027B90040D689 /* NSDictionary+SKProtection.m in Sources */,
 				F1EDC88F1D7027B90040D689 /* UIView+SKStoryBoard.m in Sources */,
 				F1EDC8DE1D790ECA0040D689 /* NSString+SKUUID.m in Sources */,
