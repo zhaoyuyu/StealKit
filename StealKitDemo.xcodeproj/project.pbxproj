@@ -43,6 +43,8 @@
 		F1EDC8DB1D7826640040D689 /* NSString+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8DA1D7826640040D689 /* NSString+SKAdditions.m */; };
 		F1EDC8DE1D790ECA0040D689 /* NSString+SKUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8DD1D790ECA0040D689 /* NSString+SKUUID.m */; };
 		F1EDC8E11D790F3B0040D689 /* UIDevice+SKUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E01D790F3B0040D689 /* UIDevice+SKUUID.m */; };
+		F1EDC8E41D7917260040D689 /* NSUserDefaults+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E31D7917260040D689 /* NSUserDefaults+SKAdditions.m */; };
+		F1EDC8E71D79187A0040D689 /* NSNotificationCenter+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8E61D79187A0040D689 /* NSNotificationCenter+SKAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +120,10 @@
 		F1EDC8DD1D790ECA0040D689 /* NSString+SKUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKUUID.m"; sourceTree = "<group>"; };
 		F1EDC8DF1D790F3B0040D689 /* UIDevice+SKUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SKUUID.h"; sourceTree = "<group>"; };
 		F1EDC8E01D790F3B0040D689 /* UIDevice+SKUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SKUUID.m"; sourceTree = "<group>"; };
+		F1EDC8E21D7917260040D689 /* NSUserDefaults+SKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+SKAdditions.h"; sourceTree = "<group>"; };
+		F1EDC8E31D7917260040D689 /* NSUserDefaults+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+SKAdditions.m"; sourceTree = "<group>"; };
+		F1EDC8E51D79187A0040D689 /* NSNotificationCenter+SKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+SKAdditions.h"; sourceTree = "<group>"; };
+		F1EDC8E61D79187A0040D689 /* NSNotificationCenter+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+SKAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +213,10 @@
 				F1EDC87D1D7027B90040D689 /* NSString+SKJSONAdditions.m */,
 				F1EDC8961D741DC90040D689 /* NSBundle+SKTargetInfo.h */,
 				F1EDC8971D741DC90040D689 /* NSBundle+SKTargetInfo.m */,
+				F1EDC8E21D7917260040D689 /* NSUserDefaults+SKAdditions.h */,
+				F1EDC8E31D7917260040D689 /* NSUserDefaults+SKAdditions.m */,
+				F1EDC8E51D79187A0040D689 /* NSNotificationCenter+SKAdditions.h */,
+				F1EDC8E61D79187A0040D689 /* NSNotificationCenter+SKAdditions.m */,
 				F1EDC8991D74238B0040D689 /* NSString+SKURL.h */,
 				F1EDC89A1D74238B0040D689 /* NSString+SKURL.m */,
 				F1EDC8811D7027B90040D689 /* UIView+SKGeometry.h */,
@@ -322,6 +332,7 @@
 				F1EDC8921D7412B80040D689 /* UIImage+SKAdditions.m in Sources */,
 				F1EDC88C1D7027B90040D689 /* NSString+SKURLEncode.m in Sources */,
 				F1EDC8871D7027B90040D689 /* NSMutableArray+SKProtection.m in Sources */,
+				F1EDC8E41D7917260040D689 /* NSUserDefaults+SKAdditions.m in Sources */,
 				F1EDC88B1D7027B90040D689 /* NSString+SKTransformatter.m in Sources */,
 				F1EDC8AE1D751EF40040D689 /* UIBarButtonItem+SKBlockSupport.m in Sources */,
 				F1EDC8BE1D7568BE0040D689 /* UIControl+SKBlockSupport.m in Sources */,
@@ -341,6 +352,7 @@
 				F1EDC8561D70275B0040D689 /* main.m in Sources */,
 				F1EDC8D41D76BCB00040D689 /* SKTextField.m in Sources */,
 				F1EDC8E11D790F3B0040D689 /* UIDevice+SKUUID.m in Sources */,
+				F1EDC8E71D79187A0040D689 /* NSNotificationCenter+SKAdditions.m in Sources */,
 				F1EDC8951D7414D80040D689 /* UIButton+SKColorForState.m in Sources */,
 				F1EDC89B1D74238B0040D689 /* NSString+SKURL.m in Sources */,
 				F1EDC8DB1D7826640040D689 /* NSString+SKAdditions.m in Sources */,
