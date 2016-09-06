@@ -12,6 +12,6 @@
 
 - (void)sk_removeObjectForKey:(id)aKey;
 
-- (void)sk_setObject:(id)anObject forKey:(id <NSCopying>)aKey;
+- (void)sk_setObject:(id)anObject forKey:(id)aKey;
 
 @end

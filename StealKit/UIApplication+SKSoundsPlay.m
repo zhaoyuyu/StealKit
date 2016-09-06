@@ -10,17 +10,17 @@
 
 @implementation UIApplication (SKSoundsPlay)
 
-+ (void)playSystemSound:(SKAudioID)audioID
++ (void)sk_playSystemSound:(SKAudioID)audioID
 {
     AudioServicesPlaySystemSound(audioID);
 }
 
-+ (void)vibrate
++ (void)sk_vibrate
 {
     AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 }
 
-+ (SystemSoundID)playCustomSound:(NSURL * _Nonnull)soundURL
++ (SystemSoundID)sk_playCustomSound:(NSURL * _Nonnull)soundURL
 {
     SystemSoundID soundID;
     
@@ -31,7 +31,7 @@
     return soundID;
 }
 
-+ (BOOL)disposeSound:(SystemSoundID)soundID
++ (BOOL)sk_disposeSound:(SystemSoundID)soundID
 {
     OSStatus error = AudioServicesDisposeSystemSoundID(soundID);
     if (error != kAudioServicesNoError) {

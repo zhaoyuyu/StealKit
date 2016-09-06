@@ -18,7 +18,7 @@
     [self removeObjectForKey:aKey];
 }
 
-- (void)sk_setObject:(id)anObject forKey:(id <NSCopying>)aKey
+- (void)sk_setObject:(id)anObject forKey:(id)aKey;
 {
     if (!anObject) {
         return;

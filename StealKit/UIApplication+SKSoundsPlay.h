@@ -503,12 +503,12 @@ typedef NS_ENUM(NSUInteger, SKAudioID) {
 
 @interface UIApplication (SKSoundsPlay)
 
-+ (void)playSystemSound:(SKAudioID)audioID;
++ (void)sk_playSystemSound:(SKAudioID)audioID;
 
-+ (void)vibrate;
++ (void)sk_vibrate;
 
-+ (SystemSoundID)playCustomSound:(NSURL * _Nonnull)soundURL;
++ (SystemSoundID)sk_playCustomSound:(NSURL * _Nonnull)soundURL;
 
-+ (BOOL)disposeSound:(SystemSoundID)soundID;
++ (BOOL)sk_disposeSound:(SystemSoundID)soundID;
 
 @end
