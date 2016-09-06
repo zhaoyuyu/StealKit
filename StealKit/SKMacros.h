@@ -31,21 +31,25 @@
 
 #ifndef SYNTH_DYNAMIC_PROPERTY_OBJ
 #define SYNTH_DYNAMIC_PROPERTY_OBJ(getter, setter, association, type) \
-- (void)setter : (type)object { \
+- (void)setter : (type)object \
+{ \
     objc_setAssociatedObject(self, _cmd, object, OBJC_ASSOCIATION_ ## association); \
 } \
-- (type)getter { \
+- (type)getter \
+{ \
     return objc_getAssociatedObject(self, @selector(setter:)); \
 }
 #endif
 
 #ifndef SYNTH_DYNAMIC_PROPERTY_CTYPE
 #define SYNTH_DYNAMIC_PROPERTY_CTYPE(getter, setter, type) \
-- (void)setter : (type)object { \
+- (void)setter : (type)object \
+{ \
     NSValue *value = [NSValue value:&object withObjCType:@encode(type)]; \
     objc_setAssociatedObject(self, _cmd, value, OBJC_ASSOCIATION_RETAIN); \
 } \
-- (type)getter { \
+- (type)getter \
+{ \
     type cValue = { 0 }; \
     NSValue *value = objc_getAssociatedObject(self, @selector(setter:)); \
     [value getValue:&cValue]; \

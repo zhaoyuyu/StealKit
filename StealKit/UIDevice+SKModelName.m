@@ -90,7 +90,7 @@
     return modelName;
 }
 
-+ (BOOL)sk_isPad
++ (BOOL)sk_isiPad
 {
     static dispatch_once_t one;
     static BOOL isiPad;

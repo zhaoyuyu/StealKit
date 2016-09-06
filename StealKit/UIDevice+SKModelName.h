@@ -12,7 +12,7 @@
 
 + (NSString *)sk_modelName;
 
-+ (BOOL)sk_isPad;
++ (BOOL)sk_isiPad;
 
 + (BOOL)sk_isiPhone;
 
