@@ -12,10 +12,6 @@
 
 + (instancetype)sk_dateWithTimeStamp:(NSTimeInterval)secs;
 
-- (NSTimeInterval)sk_timeStamp;
-
-- (NSString *)sk_stringByformat:(NSString *)format;
-
 - (instancetype)sk_dateByAddingYears:(NSInteger)years;
 
 - (instancetype)sk_dateByAddingMonths:(NSInteger)months;
@@ -29,6 +25,10 @@
 - (instancetype)sk_dateByAddingMinutes:(NSInteger)minutes;
 
 - (instancetype)sk_dateByAddingSeconds:(NSInteger)seconds;
+
+- (NSTimeInterval)sk_timeStamp;
+
+- (NSString *)sk_stringByformat:(NSString *)format;
 
 @property (nonatomic, readonly) NSInteger sk_year;
 
