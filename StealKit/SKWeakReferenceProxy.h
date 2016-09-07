@@ -1,12 +1,12 @@
 //
 //  SKWeakReferenceProxy.h
-//  StealKitDemo
+//  StealKit
 //
 //  Created by 赵瑜瑜 on 16/9/6.
 //  Copyright © 2016年 StealKit. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @interface SKWeakReferenceProxy : NSProxy
 

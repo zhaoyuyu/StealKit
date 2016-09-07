@@ -31,6 +31,10 @@
 #import "NSNotificationCenter+SKAdditions.h"
 #import "NSUserDefaults+SKAdditions.h"
 #import "SKKeyChain.h"
+#import "SKWeakReferenceProxy.h"
+#import "SKTimer.h"
+
+
 
 #import "UIImage+SKImageWithColor.h"
 #import "UIButton+SKColorForState.h"
@@ -38,6 +42,7 @@
 #import "UIView+SKGeometry.h"
 #import "UIView+SKStoryBoard.h"
 #import "UIView+SKNibAdditions.h"
+#import "UIView+SKDebug.h"
 #import "UITextField+SKPlaceholderColor.h"
 #import "UIDevice+SKVersionComparison.h"
 #import "UIDevice+SKUUID.h"

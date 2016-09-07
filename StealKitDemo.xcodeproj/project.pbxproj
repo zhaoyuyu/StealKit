@@ -50,6 +50,7 @@
 		F1EDC8F01D7967620040D689 /* UITextField+SKPlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8EF1D7967620040D689 /* UITextField+SKPlaceholderColor.m */; };
 		F1EDC9251D7EC64E0040D689 /* SKWeakReferenceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC9241D7EC64E0040D689 /* SKWeakReferenceProxy.m */; };
 		F1EDC9281D7EC7CA0040D689 /* SKTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC9271D7EC7CA0040D689 /* SKTimer.m */; };
+		F1EDC92E1D7EDC690040D689 /* UIView+SKDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC92D1D7EDC690040D689 /* UIView+SKDebug.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +140,8 @@
 		F1EDC9241D7EC64E0040D689 /* SKWeakReferenceProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKWeakReferenceProxy.m; sourceTree = "<group>"; };
 		F1EDC9261D7EC7CA0040D689 /* SKTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTimer.h; sourceTree = "<group>"; };
 		F1EDC9271D7EC7CA0040D689 /* SKTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTimer.m; sourceTree = "<group>"; };
+		F1EDC92C1D7EDC690040D689 /* UIView+SKDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKDebug.h"; sourceTree = "<group>"; };
+		F1EDC92D1D7EDC690040D689 /* UIView+SKDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKDebug.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +275,8 @@
 				F1EDC8EF1D7967620040D689 /* UITextField+SKPlaceholderColor.m */,
 				F1EDC9261D7EC7CA0040D689 /* SKTimer.h */,
 				F1EDC9271D7EC7CA0040D689 /* SKTimer.m */,
+				F1EDC92C1D7EDC690040D689 /* UIView+SKDebug.h */,
+				F1EDC92D1D7EDC690040D689 /* UIView+SKDebug.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";
@@ -375,6 +380,7 @@
 				F1EDC8D71D76BFAA0040D689 /* SKTextView.m in Sources */,
 				F1EDC9281D7EC7CA0040D689 /* SKTimer.m in Sources */,
 				F1EDC9251D7EC64E0040D689 /* SKWeakReferenceProxy.m in Sources */,
+				F1EDC92E1D7EDC690040D689 /* UIView+SKDebug.m in Sources */,
 				F1EDC8BA1D7567600040D689 /* NSTimer+SKBlockSupport.m in Sources */,
 				F1EDC8C11D7576DD0040D689 /* SKKeyChain.m in Sources */,
 				F1EDC8591D70275B0040D689 /* AppDelegate.m in Sources */,
