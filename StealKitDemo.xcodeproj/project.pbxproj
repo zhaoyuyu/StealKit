@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1A0B63E1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0B63D1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m */; };
 		F1EDC8561D70275B0040D689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8551D70275B0040D689 /* main.m */; };
 		F1EDC8591D70275B0040D689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8581D70275B0040D689 /* AppDelegate.m */; };
 		F1EDC85C1D70275B0040D689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC85B1D70275B0040D689 /* ViewController.m */; };
@@ -54,6 +55,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1A0B63C1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+SKAppendment.h"; sourceTree = "<group>"; };
+		F1A0B63D1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+SKAppendment.m"; sourceTree = "<group>"; };
 		F1EDC8511D70275B0040D689 /* StealKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StealKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EDC8551D70275B0040D689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1EDC8571D70275B0040D689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -259,24 +262,26 @@
 				F1EDC8A91D751EF40040D689 /* UIBarButtonItem+SKBlockSupport.m */,
 				F1EDC8AC1D751EF40040D689 /* UIGestureRecognizer+SKBlockSupport.h */,
 				F1EDC8AD1D751EF40040D689 /* UIGestureRecognizer+SKBlockSupport.m */,
-				F1EDC8C21D7577AB0040D689 /* SKKeyChain.h */,
-				F1EDC8C01D7576DD0040D689 /* SKKeyChain.m */,
+				F1EDC9231D7EC64E0040D689 /* SKWeakReferenceProxy.h */,
+				F1EDC9241D7EC64E0040D689 /* SKWeakReferenceProxy.m */,
+				F1EDC8EE1D7967620040D689 /* UITextField+SKPlaceholderColor.h */,
+				F1EDC8EF1D7967620040D689 /* UITextField+SKPlaceholderColor.m */,
 				F1EDC8C91D7675EF0040D689 /* UIApplication+SKSoundsPlay.h */,
 				F1EDC8CA1D7675EF0040D689 /* UIApplication+SKSoundsPlay.m */,
+				F1EDC8C21D7577AB0040D689 /* SKKeyChain.h */,
+				F1EDC8C01D7576DD0040D689 /* SKKeyChain.m */,
 				F1EDC8CF1D76B78B0040D689 /* NSDate+SKAdditions.h */,
 				F1EDC8D01D76B78B0040D689 /* NSDate+SKAdditions.m */,
 				F1EDC8D21D76BCB00040D689 /* SKTextField.h */,
 				F1EDC8D31D76BCB00040D689 /* SKTextField.m */,
 				F1EDC8D51D76BFAA0040D689 /* SKTextView.h */,
 				F1EDC8D61D76BFAA0040D689 /* SKTextView.m */,
-				F1EDC9231D7EC64E0040D689 /* SKWeakReferenceProxy.h */,
-				F1EDC9241D7EC64E0040D689 /* SKWeakReferenceProxy.m */,
-				F1EDC8EE1D7967620040D689 /* UITextField+SKPlaceholderColor.h */,
-				F1EDC8EF1D7967620040D689 /* UITextField+SKPlaceholderColor.m */,
 				F1EDC9261D7EC7CA0040D689 /* SKTimer.h */,
 				F1EDC9271D7EC7CA0040D689 /* SKTimer.m */,
 				F1EDC92C1D7EDC690040D689 /* UIView+SKDebug.h */,
 				F1EDC92D1D7EDC690040D689 /* UIView+SKDebug.m */,
+				F1A0B63C1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.h */,
+				F1A0B63D1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";
@@ -365,6 +370,7 @@
 				F1EDC88C1D7027B90040D689 /* NSString+SKURLEncode.m in Sources */,
 				F1EDC8871D7027B90040D689 /* NSMutableArray+SKProtection.m in Sources */,
 				F1EDC8E41D7917260040D689 /* NSUserDefaults+SKAdditions.m in Sources */,
+				F1A0B63E1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m in Sources */,
 				F1EDC88B1D7027B90040D689 /* NSString+SKTransformatter.m in Sources */,
 				F1EDC8AE1D751EF40040D689 /* UIBarButtonItem+SKBlockSupport.m in Sources */,
 				F1EDC8F01D7967620040D689 /* UITextField+SKPlaceholderColor.m in Sources */,

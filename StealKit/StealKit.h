@@ -25,6 +25,7 @@
 #import "NSString+SKTransformatter.h"
 #import "NSString+SKAdditions.h"
 #import "NSString+SKUUID.h"
+#import "NSMutableAttributedString+SKAppendment.h"
 #import "NSBundle+SKTargetInfo.h"
 #import "NSTimer+SKBlockSupport.h"
 #import "NSDate+SKAdditions.h"
@@ -33,8 +34,6 @@
 #import "SKKeyChain.h"
 #import "SKWeakReferenceProxy.h"
 #import "SKTimer.h"
-
-
 
 #import "UIImage+SKImageWithColor.h"
 #import "UIButton+SKColorForState.h"
