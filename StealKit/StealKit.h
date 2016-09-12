@@ -25,6 +25,7 @@
 #import "NSString+SKTransformatter.h"
 #import "NSString+SKAdditions.h"
 #import "NSString+SKUUID.h"
+#import "NSString+SKWidth.h"
 #import "NSMutableAttributedString+SKAppendment.h"
 #import "NSBundle+SKTargetInfo.h"
 #import "NSTimer+SKBlockSupport.h"

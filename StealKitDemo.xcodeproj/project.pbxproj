@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F1A0B63E1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0B63D1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m */; };
+		F1A0B6521D86A5B3000E1EA1 /* NSString+SKWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0B6511D86A5B3000E1EA1 /* NSString+SKWidth.m */; };
 		F1EDC8561D70275B0040D689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8551D70275B0040D689 /* main.m */; };
 		F1EDC8591D70275B0040D689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8581D70275B0040D689 /* AppDelegate.m */; };
 		F1EDC85C1D70275B0040D689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC85B1D70275B0040D689 /* ViewController.m */; };
@@ -57,6 +58,8 @@
 /* Begin PBXFileReference section */
 		F1A0B63C1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+SKAppendment.h"; sourceTree = "<group>"; };
 		F1A0B63D1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+SKAppendment.m"; sourceTree = "<group>"; };
+		F1A0B6501D86A5B3000E1EA1 /* NSString+SKWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKWidth.h"; sourceTree = "<group>"; };
+		F1A0B6511D86A5B3000E1EA1 /* NSString+SKWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKWidth.m"; sourceTree = "<group>"; };
 		F1EDC8511D70275B0040D689 /* StealKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StealKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EDC8551D70275B0040D689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1EDC8571D70275B0040D689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -234,6 +237,8 @@
 				F1EDC8A31D7435F30040D689 /* UIDevice+SKVersionComparison.m */,
 				F1EDC87C1D7027B90040D689 /* NSString+SKJSONAdditions.h */,
 				F1EDC87D1D7027B90040D689 /* NSString+SKJSONAdditions.m */,
+				F1A0B6501D86A5B3000E1EA1 /* NSString+SKWidth.h */,
+				F1A0B6511D86A5B3000E1EA1 /* NSString+SKWidth.m */,
 				F1EDC8961D741DC90040D689 /* NSBundle+SKTargetInfo.h */,
 				F1EDC8971D741DC90040D689 /* NSBundle+SKTargetInfo.m */,
 				F1EDC8E21D7917260040D689 /* NSUserDefaults+SKAdditions.h */,
@@ -383,6 +388,7 @@
 				F1EDC89E1D74298C0040D689 /* UIApplication+SKDirectory.m in Sources */,
 				F1EDC8851D7027B90040D689 /* NSArray+SKProtection.m in Sources */,
 				F1EDC88D1D7027B90040D689 /* NSString+SKJSONAdditions.m in Sources */,
+				F1A0B6521D86A5B3000E1EA1 /* NSString+SKWidth.m in Sources */,
 				F1EDC8D71D76BFAA0040D689 /* SKTextView.m in Sources */,
 				F1EDC9281D7EC7CA0040D689 /* SKTimer.m in Sources */,
 				F1EDC9251D7EC64E0040D689 /* SKWeakReferenceProxy.m in Sources */,
