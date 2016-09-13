@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F19D94F41D880CD600EEFCC2 /* UIAlertController+SKBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F19D94F11D880CD600EEFCC2 /* UIAlertController+SKBlockSupport.m */; };
+		F19D94F51D880CD600EEFCC2 /* UIViewController+SKAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19D94F31D880CD600EEFCC2 /* UIViewController+SKAlertController.m */; };
 		F1A0B63E1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0B63D1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m */; };
 		F1A0B6521D86A5B3000E1EA1 /* NSString+SKWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0B6511D86A5B3000E1EA1 /* NSString+SKWidth.m */; };
 		F1EDC8561D70275B0040D689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EDC8551D70275B0040D689 /* main.m */; };
@@ -56,6 +58,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F19D94F01D880CD600EEFCC2 /* UIAlertController+SKBlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+SKBlockSupport.h"; sourceTree = "<group>"; };
+		F19D94F11D880CD600EEFCC2 /* UIAlertController+SKBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+SKBlockSupport.m"; sourceTree = "<group>"; };
+		F19D94F21D880CD600EEFCC2 /* UIViewController+SKAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SKAlertController.h"; sourceTree = "<group>"; };
+		F19D94F31D880CD600EEFCC2 /* UIViewController+SKAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SKAlertController.m"; sourceTree = "<group>"; };
 		F1A0B63C1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+SKAppendment.h"; sourceTree = "<group>"; };
 		F1A0B63D1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+SKAppendment.m"; sourceTree = "<group>"; };
 		F1A0B6501D86A5B3000E1EA1 /* NSString+SKWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKWidth.h"; sourceTree = "<group>"; };
@@ -287,6 +293,10 @@
 				F1EDC92D1D7EDC690040D689 /* UIView+SKDebug.m */,
 				F1A0B63C1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.h */,
 				F1A0B63D1D8266D3000E1EA1 /* NSMutableAttributedString+SKAppendment.m */,
+				F19D94F01D880CD600EEFCC2 /* UIAlertController+SKBlockSupport.h */,
+				F19D94F11D880CD600EEFCC2 /* UIAlertController+SKBlockSupport.m */,
+				F19D94F21D880CD600EEFCC2 /* UIViewController+SKAlertController.h */,
+				F19D94F31D880CD600EEFCC2 /* UIViewController+SKAlertController.m */,
 			);
 			path = StealKit;
 			sourceTree = "<group>";
@@ -385,6 +395,7 @@
 				F1EDC8881D7027B90040D689 /* NSMutableDictionary+SKProtection.m in Sources */,
 				F1EDC88E1D7027B90040D689 /* UIView+SKGeometry.m in Sources */,
 				F1EDC8891D7027B90040D689 /* NSNull+SKProtection.m in Sources */,
+				F19D94F41D880CD600EEFCC2 /* UIAlertController+SKBlockSupport.m in Sources */,
 				F1EDC89E1D74298C0040D689 /* UIApplication+SKDirectory.m in Sources */,
 				F1EDC8851D7027B90040D689 /* NSArray+SKProtection.m in Sources */,
 				F1EDC88D1D7027B90040D689 /* NSString+SKJSONAdditions.m in Sources */,
@@ -394,6 +405,7 @@
 				F1EDC9251D7EC64E0040D689 /* SKWeakReferenceProxy.m in Sources */,
 				F1EDC92E1D7EDC690040D689 /* UIView+SKDebug.m in Sources */,
 				F1EDC8BA1D7567600040D689 /* NSTimer+SKBlockSupport.m in Sources */,
+				F19D94F51D880CD600EEFCC2 /* UIViewController+SKAlertController.m in Sources */,
 				F1EDC8C11D7576DD0040D689 /* SKKeyChain.m in Sources */,
 				F1EDC8591D70275B0040D689 /* AppDelegate.m in Sources */,
 				F1EDC8D11D76B78B0040D689 /* NSDate+SKAdditions.m in Sources */,

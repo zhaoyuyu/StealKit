@@ -51,6 +51,7 @@
 #import "UIBarButtonItem+SKBlockSupport.h"
 #import "UIGestureRecognizer+SKBlockSupport.h"
 #import "UIApplication+SKSoundsPlay.h"
+#import "UIViewController+SKAlertController.h"
 #import "SKTextField.h"
 #import "SKTextView.h"
 
